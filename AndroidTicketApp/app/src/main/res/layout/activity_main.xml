@@ -1,0 +1,216 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="0dp"
+    android:id="@+id/normal"
+    tools:context="com.example.dsouchon.myapplication.MainActivity"
+    android:screenOrientation="portrait"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:layout_marginBottom="20dp">
+
+
+
+
+            <TextView
+                style="@style/smallwordtextwhite"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Event Not Set. Please set event."
+                android:id="@+id/textEventName"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/imageViewEventImage"
+                android:background="@mipmap/thumbs_up"
+
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="80">
+
+            <Button
+                android:id="@+id/button"
+                android:onClick="ScanCode"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/round"
+                android:text="Barcodes"
+                android:layout_margin="5dp"
+                android:layout_height="match_parent"
+                android:drawableTop="@mipmap/and_btn_ticket"
+                android:padding="15dp"
+                android:textStyle="bold"
+                />
+
+
+                />
+
+            <Button
+                android:id="@+id/buttonAccessControl"
+                android:onClick="accessControl"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/round"
+                android:text="Tags"
+                android:drawableTop="@mipmap/nfcbtn"
+                android:layout_margin="5dp"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="80">
+
+        <Button
+            android:id="@+id/buttonGuestList"
+            android:onClick="Guestlist"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/round"
+            android:text="List"
+            android:drawableTop="@mipmap/and_btn_list"
+            android:layout_margin="5dp"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/buttoninfo"
+            android:onClick="buttoninfo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/round"
+            android:text="Info"
+            android:drawableTop="@mipmap/and_btn_profile"
+            android:layout_margin="5dp"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+         android:visibility="gone"
+        android:paddingTop="0dp">
+
+
+
+        <EditText
+            style="@style/passwordtext"
+            android:layout_width="match_parent"
+            android:textColor="#ffffff"
+            android:hint="UserName"
+            android:id="@+id/editUserName"
+            android:textColorHint="#ffffff"
+            android:text="smilingdassie@gmail.com"
+            android:backgroundTint="#ffffff"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <EditText
+            style="@style/passwordtext"
+            android:textColor="#ffffff"
+            android:layout_width="fill_parent"
+            android:backgroundTint="#ffffff"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:textColorHint="#ffffff"
+            android:hint="Password"
+            android:visibility="gone"
+            android:id="@+id/editPassword"
+            android:text="2222"
+
+            android:layout_column="0"
+            android:layout_row="2"
+            android:layout_height="wrap_content" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:id="@+id/buttonLogin"
+            android:layout_alignBottom="@+id/imageViewEventImage"
+            android:background="@drawable/roundorangefull"
+            android:backgroundTint="#f5ab1c"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:visibility="gone"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:onClick="Login" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/labelLoginResult"
+            android:visibility="invisible"
+            />
+
+        <Button
+            android:text="EVENT SETUP"
+            android:id="@+id/buttonEventSetup"
+            android:onClick="setupEvent"
+            android:layout_above="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/labelScanResult"
+            android:hint="Scan next tag."
+            android:textColorHint="#ffffff"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="20dp"
+            android:background="#000000"/>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/user_icon"
+                android:id="@+id/imageView3"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="TagNumber:"
+                android:id="@+id/editTagNumber"
+                android:text="Tag Number:"
+
+
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textColorHint="#000000"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_weight="1" />
+
+            <TextView
+                style="@style/smallwordtext"
+                android:textColorHint="#000000"
+                android:hint="User Details:"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingLeft="20dp"
+                android:id="@+id/nameSurname"
+                android:layout_weight="1" />
+
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressbar"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:text="Scan Next Tag"
+                android:id="@+id/buttonScanTag"
+                android:background="@drawable/round"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:minHeight="50dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="15dp"
+
+
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

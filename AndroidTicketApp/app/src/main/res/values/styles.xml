@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/AppTheme.ActionBarStyle</item>
+    </style>
+
+
+    <style name="AppTheme.ActionBarStyle" parent="android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#ffffff</item>
+        <item name="android:icon">@drawable/ico_profile_icon</item>
+    </style>
+
+
+    <style name="smallwordtext" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#838383</item>
+        <item name="android:padding">5dp</item>
+
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="smallwordtextwhite" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:padding">5dp</item>
+
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="bigwordtext" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textColor">#cdcdcd</item>
+        <item name="android:padding">5dp</item>
+
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="passwordtext" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+
+    <style name="MyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">#efefef</item>
+    </style>
+
+
+
+    <style name="spinner_arrow_style">
+
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+
+        <item name="android:paddingLeft">8dp</item>
+
+
+    </style>
+
+</resources>

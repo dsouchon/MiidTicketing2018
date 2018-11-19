@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my_soapcall">MySOAPCallActivity</string>
+    <string name="hello">hello</string>
+    <string name="title_activity_setup_event">SetupEvent</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="LogOff">Logoff</string>
+    <string name="logoout">logout</string>
+    <string name="logooutmain">lgoutmainmenu</string>
+    <string name="homego">homego</string>
+    <string name="Search">Search</string>
+    <string name="Home">Home</string>
+    <string name="app_name">ZXing Sample</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="any_orientation">1D Any Orientation</string>
+    <string name="scan_from_fragment">Scan from fragment</string>
+    <string name="front_camera">Front Camera</string>
+    <string name="custom_activity">Continuous Scan</string>
+    <string name="toolbar_activity">Activity with Toolbar</string>
+    <string name="custom_scanner">Custom Scanner Activity</string>
+    <string name="scanner_with_margin">Scanner with Margin</string>
+    <string name="scanner_with_timeout">Finish Scan in 8 Seconds</string>
+    <string name="turn_on_flashlight">Turn on Flashlight</string>
+    <string name="turn_off_flashlight">Turn off Flashlight</string>
+    <string name="title_activity_tabbed_scanning">Tabbed Scanning</string>
+    <string name="tabs">Tabs</string>
+</resources>

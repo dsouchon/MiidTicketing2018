@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView android:text="Select an event from Dropdown Menu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                    android:gravity="center_horizontal"
+                android:padding="20dp"
+
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/and_event"
+                android:id="@+id/imageView2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="My Events"
+                    android:id="@+id/labelGetCurrentEventsResult"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:layout_column="0"
+                    android:layout_row="8"
+                    />
+
+            <Spinner
+                style="@style/spinner_arrow_style"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner2"
+
+                    android:dropDownWidth="fill_parent"
+
+                    android:backgroundTint="#000000"
+                    android:clickable="true"
+                    android:textAlignment="center"
+                android:layout_marginRight="20dp"
+                    android:layout_marginTop="70dp"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentStart="false"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginLeft="20dp" />
+            <View
+                style="@style/spinner_arrow_style"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp" />
+
+            <ImageView
+                android:visibility="gone"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:id="@+id/imageViewEventImage"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="20dp"
+                    android:layout_column="0"
+                    android:layout_row="9"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+
+            android:layout_marginTop="20dp">
+
+          <!--  <Button
+                style="?android:attr/buttonStyleSmall"
+                        android:layout_height="100dp"
+
+
+                android:id="@+id/buttonUnsetEvent"
+                android:background="@drawable/ico_cross_icon"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_column="0"
+                android:onClick="UnsetEvent"
+                android:layout_width="fill_parent"
+                android:visibility="invisible"/> -->
+
+            <Button
+
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Select Event"
+                android:textStyle="bold"
+
+                android:id="@+id/buttonMainMenu"
+                android:background="@drawable/round"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:layout_column="0"
+                android:onClick="MainMenu"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+

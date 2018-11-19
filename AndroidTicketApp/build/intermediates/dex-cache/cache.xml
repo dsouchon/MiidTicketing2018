@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zbar\1.8.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="15f1c7a4c01dd95b6da8c5acfaf42d2075d1ae2a">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\me.dm7.barcodescanner-zbar-1.8.2_48e9f311ec13b19a7c91cef675d9d61c6eec49fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.0_0a1c504d0dd64fb790caf0ab85dddd26aa2f4b7c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.8.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="96c83d4de6289a3f674165f896ac992564a7138d">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\me.dm7.barcodescanner-core-1.8.2_2d08d4e1f03093bce6d31ff4dfe373d6079e49df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-7.0.0_4a1db015781fe8a56e02de99c5746db580a8cff1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-7.0.0_0f03018c987ad19dbaabab257c82b54af00fe5da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.0_6d1e45cd8da32b5f6ed8af7933100988361fc79a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-games-7.0.0_91d76e3c611bebb4aca81515e1454299fa52aa21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-7.0.0_d34ab15a101376b33eafd45070093632989be41e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-7.0.0_56b8febfcce74994c750f1787e73cb09ca34bbfa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-7.0.0_32670e5000fe6fd0b08733926ba063dc79a5db89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.android.support\design\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.3.0_e7c77ba9e2594dbd16c6a594ce3d607bbe195c0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-7.0.0_7c152b0b6fcaf00cc6782de50b4785a16011609c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="77e3f210322743390ab44e667cc8988ba5d9433b">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.journeyapps-zxing-android-embedded-3.5.0_5bf6309a31a0d4221db9841a30abf45de5968aba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-7.0.0_a21968873520c85eb1aa9209d832225bb53d789f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.0_d5fe2df216617705a4beba6909b01d3c1504b672.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\libs\ksoap2-android-assembly-3.4.0-jar-with-dependencies.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="45fbaab416fb5cff992e662d1f7a83786f084fc3">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-3.4.0-jar-with-dependencies_50336b158623f59ea436a9d397136e2fd179a1e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-7.0.0_36c35c630084183a446437e1d7b123bf9b811203.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-7.0.0_810339c017f354821db8de0e34c80134bb921970.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-7.0.0_65f86cefbcec4a16f18bdd530cdd733412e655ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\de.hdodenhof-circleimageview-2.0.0_15696fb0a4b589b382831567b10d1634d6712bf8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zbar\1.8.2\jars\libs\zbar.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\zbar_d200448692b49c0a4e785cc9b5b5892f2f7df6af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appstate-7.0.0_d6c44773fb44db7e34bbdbd73c6950261a5fd6e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.0_419243aebf8a66ef0b034964957ce6c434a2b05f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-panorama-7.0.0_873a908c1352f0f80c5a886d5ee7b0b202f57415.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.3.0_b758967ec33250455334c2534309f9480b46488a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.0_93ff7eefea40c418a8017a73774a8e1228209f32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.jakewharton\process-phoenix\1.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0af179de94ac44e396388f134ef6e7d6b5355f5f">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.jakewharton-process-phoenix-1.1.1_718bf1fca05fd07c6b3679900d051a2b74e498c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-7.0.0_8cdf5faa86b7a94aee91144e77e263e64499a8ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.0_2d58c3b5d56016dde1a3ca081f40875842d0222e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.0_ee939bdcad9f8525eababc7b812332ff0a409476.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.0_81ac64d6ef879767a88bc41f579bf777394a7810.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.0_006a1948353d158c35cc3f99e43b1fd2cb7bbed2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-7.0.0_5ac1062605a6b6c9ae1b408c4a19211bba95bdca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.3.0_01889a753eb9aa927e33d30ad7a9ae1b866cd409.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.0_191fc086b29c5c5aea4dab486558f52d4663f2d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-plus-7.0.0_f064100b72d903e94baebb4bd9db26d22386de17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-7.0.0_b4f2dad1b663be07890f33b0eae2ca24abcd74ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wallet-7.0.0_7207cbab799fdd154da9dd35bc6a572ac9c1fa6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.3.0\73c49077166faa4c3c0059c5f583d1d7bd1475fe\core-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\core-3.3.0_eeec6fec31b3690e4d8675440c89579c55c1d901.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\libs\CircleImageView-master\gradle\wrapper\gradle-wrapper.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d229475a85469cc6aab6348e8714bd1c1f833fb4">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\gradle-wrapper_ff15bb8672d82074fdbf2678c226c21aa7a372eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="D:\Work\wayoAndroid\AndroidTicketApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-drive-7.0.0_05e64a82e8a36b9977bd89de8fe7679576c197c6.jar" />
+    </item>
+
+</items>

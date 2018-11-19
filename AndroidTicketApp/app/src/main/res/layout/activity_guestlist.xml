@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="0dp"
+    android:id="@+id/normal"
+    tools:context="com.example.dsouchon.myapplication.MainActivity"
+    android:screenOrientation="portrait"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layoutLoggedIn"
+        android:visibility="visible"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="50">
+
+
+            <TextView
+                style="@style/smallwordtextwhite"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Event Not Set. Please set event."
+                android:textStyle="bold"
+                android:id="@+id/textEventName"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:background="#000000"/>
+
+
+
+
+
+            <ListView
+
+                android:id="@+id/your_list_view_id"
+                android:layout_width="fill_parent"
+                android:layout_height="454dp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
