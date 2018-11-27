@@ -145,12 +145,18 @@ public class MainLogin extends AppCompatActivity {
 
 
 
+
+
         try {
             EditText userName = (EditText) findViewById(R.id.editUserName);
             EditText password = (EditText) findViewById(R.id.editPassword);
             String user = userName.getText().toString();
             String pwd = password.getText().toString();
             LoginParams params = new LoginParams(cs, user, pwd);
+
+
+
+
 
             Local.Set(getApplicationContext(), "UserName", user);
             Local.Set(getApplicationContext(), "Password", pwd);

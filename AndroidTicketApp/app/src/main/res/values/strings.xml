@@ -2,16 +2,16 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_my_soapcall">MySOAPCallActivity</string>
+    <string name="title_activity_my_soapcall">Mi-id</string>
     <string name="hello">hello</string>
     <string name="title_activity_setup_event">SetupEvent</string>
-    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main2">Mi-id</string>
     <string name="LogOff">Logoff</string>
     <string name="logoout">logout</string>
-    <string name="logooutmain">lgoutmainmenu</string>
-    <string name="homego">homego</string>
-    <string name="Search">Search</string>
-    <string name="Home">Home</string>
+    <string name="logooutmain">Mi-id</string>
+    <string name="homego">Mi-id</string>
+    <string name="Search">Mi-id</string>
+    <string name="Home">Mi-id</string>
     <string name="app_name">ZXing Sample</string>
     <string name="scan_barcode">Scan Barcode</string>
     <string name="any_orientation">1D Any Orientation</string>
