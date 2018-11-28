@@ -78,7 +78,7 @@ public class MySOAPCallActivity
 
         envelope.setOutputSoapObject(request);
 
-        HttpTransportSE2 httpTransport = new HttpTransportSE2(SOAP_ADDRESS);
+        HttpTransportSE httpTransport = new HttpTransportSE(SOAP_ADDRESS);
         Object response=null;
         try
         {
@@ -114,7 +114,7 @@ public class MySOAPCallActivity
 
         envelope.setOutputSoapObject(request);
 
-        HttpTransportSE2 httpTransport = new HttpTransportSE2(SOAP_ADDRESS);
+        HttpTransportSE httpTransport = new HttpTransportSE(SOAP_ADDRESS);
         Object response=null;
         try
         {
@@ -128,20 +128,6 @@ public class MySOAPCallActivity
         return response.toString();
     }
 
-
-    private TrustManager[] trustAllCerts = new TrustManager[] {
-            new X509TrustManager() {
-                public java.security.cert.X509Certificate[] getAcceptedIssuers() {
-                    return null;
-                }
-                public void checkClientTrusted(
-                        java.security.cert.X509Certificate[] certs, String authType) {
-                }
-                public void checkServerTrusted(
-                        java.security.cert.X509Certificate[] certs, String authType) {
-                }
-            }
-    };
 
 
 
@@ -175,15 +161,14 @@ public class MySOAPCallActivity
 
         envelope.setOutputSoapObject(request);
 
-        HttpTransportSE2 httpTransport = new HttpTransportSE2(SOAP_ADDRESS);
+        HttpTransportSE httpTransport = new HttpTransportSE(SOAP_ADDRESS);
 
         Object response=null;
         try
         {
             httpTransport.call(SOAP_ACTIONGetTicketHoldersForEvent, envelope);
 
-            HttpTransportSE2 aht = new HttpTransportSE2(SOAP_ADDRESS);
-            aht.call(SOAP_ACTION, envelope);
+
             response = envelope.getResponse();
         }
         catch (Exception exception)
@@ -218,7 +203,7 @@ public class MySOAPCallActivity
 
         envelope.setOutputSoapObject(request);
 
-        HttpTransportSE2 httpTransport = new HttpTransportSE2(SOAP_ADDRESS);
+        HttpTransportSE httpTransport = new HttpTransportSE(SOAP_ADDRESS);
         Object response=null;
         try
         {
@@ -266,7 +251,7 @@ public class MySOAPCallActivity
 
         envelope.setOutputSoapObject(request);
 
-        HttpTransportSE2 httpTransport = new HttpTransportSE2(SOAP_ADDRESS);
+        HttpTransportSE httpTransport = new HttpTransportSE(SOAP_ADDRESS);
         Object response=null;
         try
         {
@@ -300,7 +285,7 @@ public class MySOAPCallActivity
 
         envelope.setOutputSoapObject(request);
 
-        HttpTransportSE2 httpTransport = new HttpTransportSE2(SOAP_ADDRESS, 14000);
+        HttpTransportSE httpTransport = new HttpTransportSE(SOAP_ADDRESS, 14000);
         Object response=null;
         try
         {
@@ -331,7 +316,7 @@ public class MySOAPCallActivity
 
         envelope.setOutputSoapObject(request);
 
-        HttpTransportSE2 httpTransport = new HttpTransportSE2(SOAP_ADDRESS, 14000);
+        HttpTransportSE httpTransport = new HttpTransportSE(SOAP_ADDRESS, 14000);
         Object response=null;
         try
         {
