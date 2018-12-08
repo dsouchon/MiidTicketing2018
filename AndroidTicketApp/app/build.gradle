@@ -13,8 +13,8 @@ android {
         //com.dsouchon.TicketingMiiDZim
         minSdkVersion 16
         targetSdkVersion 26
-        versionCode 19
-        versionName "3.1.5"
+        versionCode 20
+        versionName "3.1.6"
     }
     buildTypes {
         release {
